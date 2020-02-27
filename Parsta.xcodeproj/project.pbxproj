@@ -3,16 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		441AE9152406FA42004204D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AE9142406FA42004204D4 /* AppDelegate.swift */; };
 		441AE9172406FA42004204D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AE9162406FA42004204D4 /* SceneDelegate.swift */; };
-		441AE9192406FA42004204D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AE9182406FA42004204D4 /* ViewController.swift */; };
 		441AE91C2406FA42004204D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441AE91A2406FA42004204D4 /* Main.storyboard */; };
 		441AE91E2406FA42004204D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441AE91D2406FA42004204D4 /* Assets.xcassets */; };
 		441AE9212406FA42004204D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441AE91F2406FA42004204D4 /* LaunchScreen.storyboard */; };
+		44C2A94324087E8B001F58BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A94224087E8B001F58BC /* LoginViewController.swift */; };
+		44C2A94524087E97001F58BC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A94424087E97001F58BC /* FeedViewController.swift */; };
 		D9622ADF7063F017EF19DCDF /* Pods_Parsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDF4FD35A7DDD1686E5AADE /* Pods_Parsta.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +21,12 @@
 		441AE9112406FA42004204D4 /* Parsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		441AE9142406FA42004204D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		441AE9162406FA42004204D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		441AE9182406FA42004204D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		441AE91B2406FA42004204D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		441AE91D2406FA42004204D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441AE9202406FA42004204D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441AE9222406FA42004204D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C2A94224087E8B001F58BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		44C2A94424087E97001F58BC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		73D23F5E268207ADE66E0147 /* Pods-Parsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsta.release.xcconfig"; path = "Target Support Files/Pods-Parsta/Pods-Parsta.release.xcconfig"; sourceTree = "<group>"; };
 		AEDF4FD35A7DDD1686E5AADE /* Pods_Parsta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parsta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35A4D361FBECB6B8EFC02DA /* Pods-Parsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsta.debug.xcconfig"; path = "Target Support Files/Pods-Parsta/Pods-Parsta.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +50,6 @@
 				D35A4D361FBECB6B8EFC02DA /* Pods-Parsta.debug.xcconfig */,
 				73D23F5E268207ADE66E0147 /* Pods-Parsta.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,11 +76,12 @@
 			children = (
 				441AE9142406FA42004204D4 /* AppDelegate.swift */,
 				441AE9162406FA42004204D4 /* SceneDelegate.swift */,
-				441AE9182406FA42004204D4 /* ViewController.swift */,
 				441AE91A2406FA42004204D4 /* Main.storyboard */,
 				441AE91D2406FA42004204D4 /* Assets.xcassets */,
 				441AE91F2406FA42004204D4 /* LaunchScreen.storyboard */,
 				441AE9222406FA42004204D4 /* Info.plist */,
+				44C2A94224087E8B001F58BC /* LoginViewController.swift */,
+				44C2A94424087E97001F58BC /* FeedViewController.swift */,
 			);
 			path = Parsta;
 			sourceTree = "<group>";
@@ -207,8 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441AE9192406FA42004204D4 /* ViewController.swift in Sources */,
+				44C2A94324087E8B001F58BC /* LoginViewController.swift in Sources */,
 				441AE9152406FA42004204D4 /* AppDelegate.swift in Sources */,
+				44C2A94524087E97001F58BC /* FeedViewController.swift in Sources */,
 				441AE9172406FA42004204D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
