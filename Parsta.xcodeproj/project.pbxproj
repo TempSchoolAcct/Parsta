@@ -12,6 +12,7 @@
 		441AE91C2406FA42004204D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441AE91A2406FA42004204D4 /* Main.storyboard */; };
 		441AE91E2406FA42004204D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441AE91D2406FA42004204D4 /* Assets.xcassets */; };
 		441AE9212406FA42004204D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441AE91F2406FA42004204D4 /* LaunchScreen.storyboard */; };
+		44A67E3024099F010002C88E /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A67E2F24099F010002C88E /* CameraViewController.swift */; };
 		44C2A94324087E8B001F58BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A94224087E8B001F58BC /* LoginViewController.swift */; };
 		44C2A94524087E97001F58BC /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C2A94424087E97001F58BC /* FeedViewController.swift */; };
 		D9622ADF7063F017EF19DCDF /* Pods_Parsta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDF4FD35A7DDD1686E5AADE /* Pods_Parsta.framework */; };
@@ -25,6 +26,7 @@
 		441AE91D2406FA42004204D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441AE9202406FA42004204D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		441AE9222406FA42004204D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A67E2F24099F010002C88E /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		44C2A94224087E8B001F58BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		44C2A94424087E97001F58BC /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		73D23F5E268207ADE66E0147 /* Pods-Parsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsta.release.xcconfig"; path = "Target Support Files/Pods-Parsta/Pods-Parsta.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				441AE9222406FA42004204D4 /* Info.plist */,
 				44C2A94224087E8B001F58BC /* LoginViewController.swift */,
 				44C2A94424087E97001F58BC /* FeedViewController.swift */,
+				44A67E2F24099F010002C88E /* CameraViewController.swift */,
 			);
 			path = Parsta;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C2A94324087E8B001F58BC /* LoginViewController.swift in Sources */,
+				44A67E3024099F010002C88E /* CameraViewController.swift in Sources */,
 				441AE9152406FA42004204D4 /* AppDelegate.swift in Sources */,
 				44C2A94524087E97001F58BC /* FeedViewController.swift in Sources */,
 				441AE9172406FA42004204D4 /* SceneDelegate.swift in Sources */,

@@ -44,47 +44,58 @@
                                     <constraint firstAttribute="width" constant="272" id="Yg7-IH-okl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" textContentType="password"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIg-G7-Agh">
-                                <rect key="frame" x="299" y="417.66666666666669" width="42" height="30"/>
-                                <state key="normal" title="Log In"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJs-BD-Mvl">
+                                <rect key="frame" x="72.666666666666671" y="416.66666666666669" width="47" height="30"/>
+                                <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="onSignIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9ev-NP-ajb"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJs-BD-Mvl">
-                                <rect key="frame" x="69" y="417" width="54" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fIg-G7-Agh">
+                                <rect key="frame" x="275.66666666666669" y="417.66666666666669" width="54" height="30"/>
                                 <state key="normal" title="Sign Up"/>
+                                <connections>
+                                    <action selector="onSignUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hmb-fj-Gbb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="EJs-BD-Mvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-110.83" id="0fI-7I-mTy"/>
                             <constraint firstItem="pvp-aj-ETS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-101" id="2Fb-4N-aAn"/>
-                            <constraint firstItem="EJs-BD-Mvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-111" id="6wc-EW-5uV"/>
-                            <constraint firstItem="fIg-G7-Agh" firstAttribute="top" secondItem="zGV-tf-ZXD" secondAttribute="bottom" constant="27" id="7eH-ir-7Ra"/>
-                            <constraint firstItem="fIg-G7-Agh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-15.33" id="8iO-AJ-aJX"/>
+                            <constraint firstItem="fIg-G7-Agh" firstAttribute="leading" secondItem="EJs-BD-Mvl" secondAttribute="trailing" constant="156" id="5hB-Td-Cjp"/>
                             <constraint firstItem="7YD-nK-baf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ABd-fk-eRn"/>
+                            <constraint firstItem="EJs-BD-Mvl" firstAttribute="top" secondItem="zGV-tf-ZXD" secondAttribute="bottom" constant="26" id="ABi-og-hm1"/>
+                            <constraint firstItem="EJs-BD-Mvl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-16.329999999999998" id="Ith-qM-Mf0"/>
                             <constraint firstItem="pvp-aj-ETS" firstAttribute="top" secondItem="fzR-Xo-Vda" secondAttribute="bottom" constant="28" id="J0D-aj-5OL"/>
                             <constraint firstItem="fzR-Xo-Vda" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-2" id="N4q-17-xqj"/>
                             <constraint firstItem="pvp-aj-ETS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-109.83" id="Qou-sK-P1S"/>
                             <constraint firstItem="fzR-Xo-Vda" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-165.33000000000001" id="TFm-2Y-qE6"/>
-                            <constraint firstItem="fIg-G7-Agh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="113" id="Use-z1-P64"/>
                             <constraint firstItem="zGV-tf-ZXD" firstAttribute="top" secondItem="pvp-aj-ETS" secondAttribute="bottom" constant="8" id="WWb-Ac-pHz"/>
-                            <constraint firstItem="EJs-BD-Mvl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-15.33" id="bJe-05-Zd3"/>
-                            <constraint firstItem="EJs-BD-Mvl" firstAttribute="top" secondItem="zGV-tf-ZXD" secondAttribute="bottom" constant="26" id="eJG-3F-bXz"/>
+                            <constraint firstItem="fIg-G7-Agh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="95.670000000000002" id="e04-rv-NxN"/>
                             <constraint firstItem="7YD-nK-baf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-273.5" id="eXr-EK-e2Y"/>
                             <constraint firstItem="vtA-hV-OVW" firstAttribute="top" secondItem="7YD-nK-baf" secondAttribute="bottom" constant="8" id="iM8-Lz-aPF"/>
                             <constraint firstItem="vtA-hV-OVW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-98.5" id="jJu-QI-QfD"/>
                             <constraint firstItem="zGV-tf-ZXD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-2" id="lTz-lW-QhJ"/>
+                            <constraint firstItem="fIg-G7-Agh" firstAttribute="top" secondItem="zGV-tf-ZXD" secondAttribute="bottom" constant="27" id="mPu-1O-oRz"/>
+                            <constraint firstItem="fIg-G7-Agh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-15.33" id="mUb-sh-cPU"/>
                             <constraint firstItem="zGV-tf-ZXD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-74.329999999999998" id="n9E-3a-QbB"/>
                             <constraint firstItem="fzR-Xo-Vda" firstAttribute="top" secondItem="vtA-hV-OVW" secondAttribute="bottom" constant="8" id="qO2-LF-6OH"/>
-                            <constraint firstItem="fIg-G7-Agh" firstAttribute="leading" secondItem="EJs-BD-Mvl" secondAttribute="trailing" constant="176" id="sAb-tt-N4d"/>
                             <constraint firstItem="vtA-hV-OVW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200.83000000000001" id="xjf-NY-WjP"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="passField" destination="zGV-tf-ZXD" id="eMh-ID-irk"/>
+                        <outlet property="userField" destination="fzR-Xo-Vda" id="bZn-fO-K6a"/>
+                        <segue destination="xIY-lD-UHR" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="zLe-3r-OAs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="76.811594202898561" y="123.88392857142857"/>
+            <point key="canvasLocation" x="173.91304347826087" y="137.94642857142856"/>
         </scene>
         <!--Feed View Controller-->
         <scene sceneID="qEy-r9-n0c">
@@ -96,11 +107,65 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="bFp-Sx-Z8r"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FXr-N1-glk"/>
+                    <navigationItem key="navigationItem" id="FXr-N1-glk">
+                        <barButtonItem key="rightBarButtonItem" image="insta_camera_btn" id="SR0-2Z-voi">
+                            <connections>
+                                <segue destination="kXB-Ly-nPR" kind="presentation" id="Sh7-t6-cyf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wvR-7A-gqA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1963.7681159420292" y="137.94642857142856"/>
+        </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="Sxh-6c-yGR">
+            <objects>
+                <viewController id="kXB-Ly-nPR" customClass="CameraViewController" customModule="Parsta" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PWE-Qi-fn6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="c4j-1e-aHT">
+                                <rect key="frame" x="20" y="20" width="381" height="345"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="5ss-EV-8lW" appends="YES" id="J6D-Df-3CS"/>
+                                </connections>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Zy-dI-HKu">
+                                <rect key="frame" x="20" y="404" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFa-tJ-DQ2">
+                                <rect key="frame" x="20" y="503" width="374" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="onSubmit:" destination="kXB-Ly-nPR" eventType="touchUpInside" id="iYd-WB-Gqd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="dJu-UP-BXM"/>
+                    </view>
+                    <connections>
+                        <outlet property="commentField" destination="6Zy-dI-HKu" id="R7N-RD-26f"/>
+                        <outlet property="imageView" destination="c4j-1e-aHT" id="PB7-ow-kSD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l45-Ga-9HC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="5ss-EV-8lW">
+                    <connections>
+                        <action selector="onCameraButton:" destination="kXB-Ly-nPR" id="5E3-i9-QcE"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2882.608695652174" y="137.94642857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N4g-xW-lt0">
@@ -122,6 +187,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="image_placeholder" width="375" height="375"/>
+        <image name="insta_camera_btn" width="25" height="25"/>
         <image name="instagram_logo" width="255" height="108"/>
     </resources>
 </document>
