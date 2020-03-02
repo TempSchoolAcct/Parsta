@@ -15,14 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="RpE-SE-MOB">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="RpE-SE-MOB">
                                 <rect key="frame" x="79.5" y="394" width="255" height="108"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="RpE-SE-MOB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Ee4-yq-An6"/>
-                            <constraint firstItem="RpE-SE-MOB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="T6V-ZH-GIw"/>
+                            <constraint firstItem="RpE-SE-MOB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Mic-7h-w2l"/>
+                            <constraint firstItem="RpE-SE-MOB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="RTK-w8-XLk"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
