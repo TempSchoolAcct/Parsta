@@ -23,4 +23,6 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/WtSvxis4ty.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/TempSchoolAcct/CodePathAssignments/blob/Files/parsta.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+<img src='https://github.com/TempSchoolAcct/CodePathAssignments/blob/Files/parstaOne.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
