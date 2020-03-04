@@ -240,7 +240,7 @@
         <!--Navigation Controller-->
         <scene sceneID="N4g-xW-lt0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xIY-lD-UHR" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="xIY-lD-UHR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ulg-kY-kkf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
