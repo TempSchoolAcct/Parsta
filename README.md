@@ -50,5 +50,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="https://i.imgur.com/Wb6jkql.gifv" width=250/>
+<img src="http://g.recordit.co/slFackclhj.gif" width=250/>
 
