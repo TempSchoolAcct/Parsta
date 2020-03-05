@@ -50,5 +50,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://g.recordit.co/slFackclhj.gif" width=250/>
+<img src="https://github.com/TempSchoolAcct/Parsta/blob/master/Files/ParstaPartOne.gif" width=250/>
 
