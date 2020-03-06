@@ -118,13 +118,13 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wt-pW-X0j">
-                                                    <rect key="frame" x="8" y="366" width="42.5" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="16" y="366" width="45.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fake Comment Here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3n-Kh-jvP">
-                                                    <rect key="frame" x="58.5" y="366" width="156" height="20.5"/>
+                                                    <rect key="frame" x="69.5" y="366" width="156" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -145,7 +145,7 @@
                                                 <constraint firstItem="u0J-za-WSk" firstAttribute="leading" secondItem="94c-Mx-a75" secondAttribute="leading" constant="8" id="BIU-OF-hkS"/>
                                                 <constraint firstItem="4wt-pW-X0j" firstAttribute="top" secondItem="u0J-za-WSk" secondAttribute="bottom" constant="8" id="PrI-oz-dZL"/>
                                                 <constraint firstItem="u0J-za-WSk" firstAttribute="top" secondItem="94c-Mx-a75" secondAttribute="top" constant="8" id="UGg-i1-XMu"/>
-                                                <constraint firstItem="4wt-pW-X0j" firstAttribute="leading" secondItem="94c-Mx-a75" secondAttribute="leading" constant="8" id="eEk-Zs-bcK"/>
+                                                <constraint firstItem="4wt-pW-X0j" firstAttribute="leading" secondItem="94c-Mx-a75" secondAttribute="leading" constant="16" id="eEk-Zs-bcK"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Z3n-Kh-jvP" secondAttribute="bottom" constant="8" id="eVo-7g-mXz"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Z3n-Kh-jvP" secondAttribute="trailing" priority="250" constant="8" id="nZl-8C-JDt"/>
                                                 <constraint firstItem="Z3n-Kh-jvP" firstAttribute="leading" secondItem="4wt-pW-X0j" secondAttribute="trailing" constant="8" id="pOR-jJ-Tk8"/>
@@ -156,6 +156,37 @@
                                             <outlet property="photoView" destination="u0J-za-WSk" id="Eri-8i-a29"/>
                                             <outlet property="usernameLabel" destination="4wt-pW-X0j" id="weo-hs-iCa"/>
                                         </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ip4-pq-TUZ">
+                                        <rect key="frame" x="0.0" y="442" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ip4-pq-TUZ" id="MHH-7F-BOZ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVA-Gm-bTJ">
+                                                    <rect key="frame" x="16" y="8" width="48" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fake Comment Here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zo8-hr-avj">
+                                                    <rect key="frame" x="72" y="8" width="156" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yVA-Gm-bTJ" secondAttribute="bottom" constant="8" id="DEg-jA-UDg"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Zo8-hr-avj" secondAttribute="bottom" constant="8" id="P0S-it-HrM"/>
+                                                <constraint firstItem="yVA-Gm-bTJ" firstAttribute="leading" secondItem="MHH-7F-BOZ" secondAttribute="leading" constant="16" id="RJz-D7-1Yv"/>
+                                                <constraint firstItem="Zo8-hr-avj" firstAttribute="leading" secondItem="yVA-Gm-bTJ" secondAttribute="trailing" constant="8" id="ZZZ-3U-dP7"/>
+                                                <constraint firstItem="yVA-Gm-bTJ" firstAttribute="top" secondItem="MHH-7F-BOZ" secondAttribute="top" constant="8" id="hDX-mi-Z4c"/>
+                                                <constraint firstItem="Zo8-hr-avj" firstAttribute="top" secondItem="MHH-7F-BOZ" secondAttribute="top" constant="8" id="jha-QE-WCS"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Zo8-hr-avj" secondAttribute="trailing" priority="250" constant="8" id="o9E-hV-BP5"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
