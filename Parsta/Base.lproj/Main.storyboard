@@ -192,6 +192,28 @@
                                             <outlet property="nameLabel" destination="yVA-Gm-bTJ" id="ERZ-ce-PXO"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AddCommentCell" id="hlW-32-kLd">
+                                        <rect key="frame" x="0.0" y="486" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hlW-32-kLd" id="r3A-Oe-zz3">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add a comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amI-RS-eWD">
+                                                    <rect key="frame" x="16" y="8" width="121" height="28"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="amI-RS-eWD" firstAttribute="leading" secondItem="r3A-Oe-zz3" secondAttribute="leading" constant="16" id="JTQ-Pt-PK3"/>
+                                                <constraint firstAttribute="bottom" secondItem="amI-RS-eWD" secondAttribute="bottom" constant="8" id="NoU-Vu-KT5"/>
+                                                <constraint firstItem="amI-RS-eWD" firstAttribute="top" secondItem="r3A-Oe-zz3" secondAttribute="top" constant="8" id="TGM-6h-Nlx"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="amI-RS-eWD" secondAttribute="trailing" priority="250" constant="8" id="dql-Mq-BNF"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
