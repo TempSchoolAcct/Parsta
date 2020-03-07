@@ -8,5 +8,6 @@ target 'Parsta' do
   # Pods for Parsta
   pod "Parse"
   pod "AlamofireImage"
+  pod "MessageInputBar"
 
 end
