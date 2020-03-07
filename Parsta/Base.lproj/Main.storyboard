@@ -179,12 +179,12 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="yVA-Gm-bTJ" secondAttribute="bottom" constant="8" id="DEg-jA-UDg"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Zo8-hr-avj" secondAttribute="trailing" priority="250" constant="8" id="GxK-HC-TuD"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Zo8-hr-avj" secondAttribute="bottom" constant="8" id="P0S-it-HrM"/>
                                                 <constraint firstItem="yVA-Gm-bTJ" firstAttribute="leading" secondItem="MHH-7F-BOZ" secondAttribute="leading" constant="16" id="RJz-D7-1Yv"/>
                                                 <constraint firstItem="Zo8-hr-avj" firstAttribute="leading" secondItem="yVA-Gm-bTJ" secondAttribute="trailing" constant="8" id="ZZZ-3U-dP7"/>
                                                 <constraint firstItem="yVA-Gm-bTJ" firstAttribute="top" secondItem="MHH-7F-BOZ" secondAttribute="top" constant="8" id="hDX-mi-Z4c"/>
                                                 <constraint firstItem="Zo8-hr-avj" firstAttribute="top" secondItem="MHH-7F-BOZ" secondAttribute="top" constant="8" id="jha-QE-WCS"/>
-                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Zo8-hr-avj" secondAttribute="trailing" priority="250" constant="8" id="o9E-hV-BP5"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
